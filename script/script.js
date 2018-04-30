@@ -12,7 +12,7 @@ $(".gifButton").on("click", function() {
     console.log(food);
     
     //Construction a queryURL using the food name
-    var queryURL = "https://api.giphy.com//v1/gifs/search?q=" + food + "&api_key=DRcqsS5iFZbtajCgoYlo4inNakv4wCTy&limit=10";
+    var queryURL = "https://api.giphy.com//v1/gifs/search?q=" + food + "&api_key=dc6zaTOxFJmzC&rating&limit=10";
     //Performing an AJAX request with the queryURL
     $.ajax({
         url: queryURL,
