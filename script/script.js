@@ -7,7 +7,7 @@ $(document).ready(function () {
         $("#foodButtons").empty();
 
         for (i = 0; i < topics.length; i++) {
-            var buttonHtml = "<button type='button' class='gifButton'>" + topics[i] + "</button>";
+            var buttonHtml = "<button type='button' class='gifButton btn btn-warning btn-lg'>" + topics[i] + "</button>";
             $("#foodButtons").append(buttonHtml);
         };
 
